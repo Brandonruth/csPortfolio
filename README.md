@@ -1,7 +1,7 @@
 # csPortfolio
 * WebPage [here]()
-* Lightning [here]()
-* Lightning JS [here]()
+* Lightning [here](https://brandonruth.github.io/lightning2/)
+* Lightning JS [here](https://brandonruth.github.io/lightning2/)
 * Dice [here](https://brandonruth.github.io/dice3/)
 
 ```Java
