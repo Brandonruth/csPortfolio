@@ -3,6 +3,33 @@
 * Lightning [here](https://brandonruth.github.io/lightning2/)
 * Lightning JS [here](https://brandonruth.github.io/lightning2/)
 * Dice [here](https://brandonruth.github.io/dice3/)
+```Java
+void draw()
+{
+   background(125, 25, 25);
+  int xpos = 10;
+  int ypos = -45;
+  for (int t = 0; t < 15; t++) {
+    ypos = ypos + 55;
+    xpos= 10;
+    for (int i= 0; i < 18; i++) {
+      fill(255, 255, 255);
+      rect(xpos, ypos, 50, 50,15);
+      die = new Die(xpos, ypos);
+      die.roll();
+      xpos += 55;
+
+    }
+    
+  }
+   stats();
+   
+}
+void stats(){
+  textSize(100);
+   text("Total: "+total,260,900);
+  
+}
 
 ```Java
 int startX=0;
