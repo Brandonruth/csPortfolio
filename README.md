@@ -4,6 +4,52 @@
 * Lightning JS [here](https://brandonruth.github.io/lightning2/)
 * Dice [here](https://brandonruth.github.io/dice3/)
 * College presentation[here](https://docs.google.com/presentation/d/e/2PACX-1vSSNUgvo11X_pQfsNkG32qAnl7cZUq5_w5fK-nVq8Fr5ZdfvCIji_pSYRRGiNqIwTfOEP8zzdp0ANLy/pub?start=true&loop=true&delayms=5000)
+*Chemotaxis [here](https://brandonruth.github.io/chemotaxis4/)
+```Java
+   void change(){
+     if(mouseX >xpos){
+       xpos-=(int)(Math.random()*3);
+     }
+     else if(mouseX <xpos){
+      xpos+=(int)(Math.random()*3); 
+     }
+     if(mouseY >ypos){
+       ypos-=(int)(Math.random()*3);
+     }
+     else if(mouseY <ypos){
+      ypos+=(int)(Math.random()*3); 
+     }
+     if(xpos<=size/2){
+      xpos=xpos+5; 
+     }
+     if(xpos>=1500-size/2){
+      xpos=xpos-5; 
+     }
+     if(ypos<=size/2){
+      ypos=ypos+5;
+     }
+     if(ypos>=950-size/2){
+      ypos=ypos-5; 
+     }
+if(mouseX<xpos&&mouseX>xpos-size/2&&mouseY>ypos&&mouseY<ypos+size/2){
+      size=size+1;
+    }
+    if(mouseX>xpos&&mouseX<xpos+size/2&&mouseY>ypos&&mouseY<ypos+size/2){
+      size = size+1;
+   }
+   if(mouseX>xpos&&mouseX<xpos+size/2&&mouseY<ypos&&mouseY>ypos-size/2){
+      size=size+1;
+    }
+    if(mouseX<xpos&&mouseX>xpos-size/2&&mouseY<ypos&&mouseY>ypos-size/2){
+      size = size+1;
+   }
+   if(size==500){
+     explosionx=xpos;
+     explosiony=ypos;
+    size=0;
+    image(explosion,explosionx,explosiony,500,500);
+   }
+ }  
 ```Java
 void draw()
 {
