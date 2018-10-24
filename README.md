@@ -3,8 +3,9 @@
 * Lightning [here](https://brandonruth.github.io/lightning2/)
 * Lightning JS [here](https://brandonruth.github.io/lightning2/)
 * Dice [here](https://brandonruth.github.io/dice3/)
+
 * College presentation[here](https://docs.google.com/presentation/d/e/2PACX-1vSSNUgvo11X_pQfsNkG32qAnl7cZUq5_w5fK-nVq8Fr5ZdfvCIji_pSYRRGiNqIwTfOEP8zzdp0ANLy/pub?start=true&loop=true&delayms=5000)
-*Chemotaxis [here](https://brandonruth.github.io/chemotaxis4/)
+* Chemotaxis [here](https://brandonruth.github.io/chemotaxis4/)
 ```Java
    void change(){
      if(mouseX >xpos){
