@@ -1,12 +1,11 @@
 # csPortfolio
-* WebPage [here](https://brandonruth.github.io/SESshowmeyourmussels/showmeyourmusselsSES)
-* Lightning [here](https://brandonruth.github.io/lightning2/)
-* Lightning JS [here](https://brandonruth.github.io/lightning2/)
-* Dice [here](https://brandonruth.github.io/dice3/)
-
-* College presentation[here](https://docs.google.com/presentation/d/e/2PACX-1vSSNUgvo11X_pQfsNkG32qAnl7cZUq5_w5fK-nVq8Fr5ZdfvCIji_pSYRRGiNqIwTfOEP8zzdp0ANLy/pub?start=true&loop=true&delayms=5000)
-* Chemotaxis [here](https://brandonruth.github.io/chemotaxis4/)
-* Starfield [here](https://brandonruth.github.io/starfield5/)
+1. WebPage [here](https://brandonruth.github.io/SESshowmeyourmussels/showmeyourmusselsSES)
+2. Lightning [here](https://brandonruth.github.io/lightning2/)
+..* Lightning JS [here](https://brandonruth.github.io/lightning2/)
+3. Dice [here](https://brandonruth.github.io/dice3/)
+4. College presentation[here](https://docs.google.com/presentation/d/e/2PACX-1vSSNUgvo11X_pQfsNkG32qAnl7cZUq5_w5fK-nVq8Fr5ZdfvCIji_pSYRRGiNqIwTfOEP8zzdp0ANLy/pub?start=true&loop=true&delayms=5000)
+5. Chemotaxis [here](https://brandonruth.github.io/chemotaxis4/)
+6. Starfield [here](https://brandonruth.github.io/starfield5/)
 ```Java
    void change(){
      if(mouseX >xpos){
