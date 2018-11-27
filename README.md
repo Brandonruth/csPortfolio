@@ -73,10 +73,9 @@ endY=150;
 
 }
 ```
+Lightning was a fairly easy lab, the randomization was a little difficult to understand at first but with some practice I managed to understand it.<br>
 3. Lightning JS [here](https://brandonruth.github.io/lightning2/)
 4. Dice [here](https://brandonruth.github.io/dice3/)
-5. College presentation[here](https://docs.google.com/presentation/d/e/2PACX-1vSSNUgvo11X_pQfsNkG32qAnl7cZUq5_w5fK-nVq8Fr5ZdfvCIji_pSYRRGiNqIwTfOEP8zzdp0ANLy/pub?start=true&loop=true&delayms=5000)
-6. Chemotaxis [here](https://brandonruth.github.io/chemotaxis4/)
 ```Java
 void draw()
 {
@@ -105,6 +104,34 @@ void stats(){
   
 }
 ```
+The most difficult part of the dice lab was getting arrays to cooperate, as I had forgotten how to begin them, a fellow classmate helped me create the array and it was quite easy from that point on.<br>
+5. College presentation[here](https://docs.google.com/presentation/d/e/2PACX-1vSSNUgvo11X_pQfsNkG32qAnl7cZUq5_w5fK-nVq8Fr5ZdfvCIji_pSYRRGiNqIwTfOEP8zzdp0ANLy/pub?start=true&loop=true&delayms=5000)
+6. Chemotaxis [here](https://brandonruth.github.io/chemotaxis4/)
+```java
+if(mouseX<xpos&&mouseX>xpos-size/2&&mouseY>ypos&&mouseY<ypos+size/2){
+      size=size+1;
+      scolor-=1;
+    }
+    if(mouseX>xpos&&mouseX<xpos+size/2&&mouseY>ypos&&mouseY<ypos+size/2){
+      size = size+1;
+      scolor-=1;
+   }
+   if(mouseX>xpos&&mouseX<xpos+size/2&&mouseY<ypos&&mouseY>ypos-size/2){
+      size=size+1;
+       scolor-=1;
+    }
+    if(mouseX<xpos&&mouseX>xpos-size/2&&mouseY<ypos&&mouseY>ypos-size/2){
+      size = size+1;
+       scolor-=1;
+   }
+   if(size==250){
+     explosionx=xpos;
+     explosiony=ypos;
+    size=0;
+    
+   }
+   ```
+   The most difficult part of chemotaxis was getting the program to recognize that the mouse was over the given dot, this just took a lot of trial and error to solve.<br>
 7. Starfield [here](https://brandonruth.github.io/starfield5/)
 ```Java
    void change(){
@@ -152,5 +179,5 @@ if(mouseX<xpos&&mouseX>xpos-size/2&&mouseY>ypos&&mouseY<ypos+size/2){
    }
  }  
 ```
-
+The most difficult part of this code was the intial design, as I was unable to create something I was happy with, until i took inspiration from a classmate and expanded upon it.
 
