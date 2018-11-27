@@ -33,13 +33,9 @@
 
 </head>
 </html>
-
-
 ```
+This code shows the home page of my website, the most challenging part of this website was navigating between the different tabs, which i was not aware had to in a way be entirely diffrent websites. This was not necessarily difficult but it was quite tedious.
 2. Lightning [here](https://brandonruth.github.io/lightning2/)
-3. Lightning JS [here](https://brandonruth.github.io/lightning2/)
-4. Dice [here](https://brandonruth.github.io/dice3/)
-
 ```Java
 int startX=0;
 int startY=150;
@@ -77,6 +73,8 @@ endY=150;
 
 }
 ```
+3. Lightning JS [here](https://brandonruth.github.io/lightning2/)
+4. Dice [here](https://brandonruth.github.io/dice3/)
 5. College presentation[here](https://docs.google.com/presentation/d/e/2PACX-1vSSNUgvo11X_pQfsNkG32qAnl7cZUq5_w5fK-nVq8Fr5ZdfvCIji_pSYRRGiNqIwTfOEP8zzdp0ANLy/pub?start=true&loop=true&delayms=5000)
 6. Chemotaxis [here](https://brandonruth.github.io/chemotaxis4/)
 ```Java
