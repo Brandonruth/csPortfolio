@@ -34,7 +34,7 @@
 </head>
 </html>
 ```
-This code shows the home page of my website, the most challenging part of this website was navigating between the different tabs, which i was not aware had to in a way be entirely diffrent websites. This was not necessarily difficult but it was quite tedious.
+This code shows the home page of my website, the most challenging part of this website was navigating between the different tabs, which i was not aware had to in a way be entirely diffrent websites. This was not necessarily difficult but it was quite tedious. \n
 2. Lightning [here](https://brandonruth.github.io/lightning2/)
 ```Java
 int startX=0;
