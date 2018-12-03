@@ -181,6 +181,10 @@ if(mouseX<xpos&&mouseX>xpos-size/2&&mouseY>ypos&&mouseY<ypos+size/2){
 ```
 The most difficult part of this code was the intial design, as I was unable to create something I was happy with, until i took inspiration from a classmate and expanded upon it.<br>
 
-8. Reflection<br>
+Christmas card Alpha [here}("https://ryggj.github.io/ChristmasCard/")<br>
+```java
+```
+
+Reflection<br>
 These projects taught me that i simply cant solve every problem on my own, I needed to ask questions and I needed to ensure that I understood how the code worked. I had to ask classmate for help on multiple different problems which is something I do not like doing usually, these projects made me more comfortable to do so.
 
