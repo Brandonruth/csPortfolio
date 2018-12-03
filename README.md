@@ -181,10 +181,78 @@ if(mouseX<xpos&&mouseX>xpos-size/2&&mouseY>ypos&&mouseY<ypos+size/2){
 ```
 The most difficult part of this code was the intial design, as I was unable to create something I was happy with, until i took inspiration from a classmate and expanded upon it.<br>
 
-Christmas card Alpha [here}("https://ryggj.github.io/ChristmasCard/")<br>
+Christmas card Alpha [here]("https://ryggj.github.io/ChristmasCard/")<br>
 ```java
+class snowpile
+{
+  int snowy=600;
+  int x1= -25;
+  int y1=150;
+  int x2= width+50;
+  int y2= 150;
+  void show(){
+   fill(255);
+   rect(0,snowy,width,200);
+  }
+  void daynight(){
+   if(x1<width/2){
+    fill(255,255,0);
+   ellipse(x1,y1,50,50);
+   x1+=5;
+   y1-=1;
+   snowy+=1;
+   r+=1;
+   g+=1;
+   b+=1;
+   }
+   else if(x1>=width/2&&x1<width){
+     fill(255,255,0);
+   ellipse(x1,y1,50,50);
+   x1+=5;
+   y1+=1;
+   snowy+=1;
+   r-=2;
+   g-=1;
+   b-=1;
+   }
+   else if(x1>=width&&x1<width+20){
+     x2=-25;
+     x1=width+40;
+     y2=150;
+   }
+      if(x2<width/2){
+    fill(254, 252, 215);
+   ellipse(x2,y2,50,50);
+   x2+=5;
+   y2-=1;
+   snowy-=1;
+   r-=1;
+   g-=1;
+   b-=1;
+   }
+   else if(x2>=width/2&&x2<width){
+     fill(254, 252, 215);
+   ellipse(x2,y2,50,50);
+   x2+=5;
+   y2+=1;
+   snowy-=1;
+   r+=1;
+   g+=1;
+   b+=1;
+   }
+   else if(x2>=width&&x2<width+20){
+     x1=-25;
+     x2=width+40;
+     y1=150;
+   }
+   noFill();
+   stroke(0);
+   ellipse(500,900,1700,1700);
+  }
+  
+}
 ```
-
+This bit of code was fairly difficult for me to do as it required a lot of trial and error to get the coridantes correct aswell as allow for everything to work together as intended. This code controls the snowpile growing and melting as well as the day night cycle of the sky. I overcame this code by simply not giving up and being determined to finish it and have a quality product.<br><br>
 Reflection<br>
 These projects taught me that i simply cant solve every problem on my own, I needed to ask questions and I needed to ensure that I understood how the code worked. I had to ask classmate for help on multiple different problems which is something I do not like doing usually, these projects made me more comfortable to do so.
 
