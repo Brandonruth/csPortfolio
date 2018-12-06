@@ -252,7 +252,7 @@ class snowpile
   
 }
 ```
-9. Word counter [here]("")<br>
+9. Word counter [here]("https://github.com/Brandonruth/wordcounter")<br>
 ```java
 StringParser strp = new StringParser();
 String vowels = "aeiou";
