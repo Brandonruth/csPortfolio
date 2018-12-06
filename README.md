@@ -181,7 +181,7 @@ if(mouseX<xpos&&mouseX>xpos-size/2&&mouseY>ypos&&mouseY<ypos+size/2){
 ```
 The most difficult part of this code was the intial design, as I was unable to create something I was happy with, until i took inspiration from a classmate and expanded upon it.<br>
 
-Christmas card Alpha [here]("https://ryggj.github.io/ChristmasCard/")<br>
+8. Christmas card Alpha [here]("https://ryggj.github.io/ChristmasCard/")<br>
 ```java
 class snowpile
 {
@@ -250,6 +250,118 @@ class snowpile
    ellipse(500,900,1700,1700);
   }
   
+}
+```
+9. Word counter [here]("")<br>
+```java
+StringParser strp = new StringParser();
+String vowels = "aeiou";
+String text = "It is not the critic who counts, not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat." ;
+String str[] = text.split("[//, \\/|@]");
+String stre[] = text.split("[.!?]");
+void setup() {
+  println("This text contains "+strp.countWords()+ " words");
+  println("This text contains "+strp.countVowels()+ " vowels");
+  println("This text contains "+strp.countSyllables()+ " Syllables");
+  println("This text contains "+strp.countSentences()+ " Sentences");
+  
+}
+
+public class StringParser {
+
+  public StringParser() {
+  }
+  /**
+   *countWords();
+   * A "word" is defined as a contiguous string of alphabetic characters
+   * i.e. any upper or lower case characters a-z or A-Z.  This method completely 
+   * ignores numbers when you count words, and assumes that the document/paragraph does not have 
+   * any strings that combine numbers and letters. 
+   */
+
+  public int countWords() {
+    int wordcount = 0;
+for( String a : str){
+  wordcount ++;
+}
+
+
+
+
+
+
+
+    return wordcount;
+  }
+
+  public int countVowels() {
+    int vowelcount=0;
+for(int i = 0; i < text.length(); i++){
+  if(text.charAt(i)=='a'||text.charAt(i)=='a'||text.charAt(i)=='e'||text.charAt(i)=='i'||text.charAt(i)=='o'||text.charAt(i)=='u'||text.charAt(i)=='y')
+vowelcount++;
+}
+
+
+
+
+
+
+
+    return vowelcount;
+  }
+  /**
+  
+   *       Each contiguous sequence of one or more vowels is a syllable, 
+   *       with the following exception: a lone "e" at the end of a word 
+   *       is not considered a syllable unless the word has no other syllables. 
+   *       You should consider y a vowel.
+   */
+
+  public int countSyllables() {
+   int syllablecount = 0;
+    for(int i = 0; i < text.length(); i++){
+ if(text.charAt(i)=='a'||text.charAt(i)=='a'||text.charAt(i)=='e'||text.charAt(i)=='i'||text.charAt(i)=='o'||text.charAt(i)=='u'||text.charAt(i)=='y'){
+   if(text.charAt(i+1)!='a'&&text.charAt(i+1)!='a'&&text.charAt(i+1)!='e'&&text.charAt(i+1)!='i'&&text.charAt(i+1)!='o'&&text.charAt(i+1)!='u'&&text.charAt(i+1)!='y'){
+    if(text.charAt(i)=='e'&&text.charAt(i+1)!=' '&& text.charAt(i+1)!=','&&text.charAt(i+1)!='?'&& text.charAt(i+1)!='!'&& text.charAt(i+1)!='.'||text.charAt(i)!='e'){
+      syllablecount ++;
+    }
+    
+   }
+ }
+    }
+
+
+
+
+
+
+
+    return syllablecount;
+  }
+
+
+
+  /**
+   * Eventually write this one too. Get the number of sentences in the document/paragraph.
+   * Sentences are defined as contiguous strings of characters ending in an 
+   * end of sentence punctuation (. ! or ?) or the last contiguous set of 
+   * characters in the document, even if they don't end with a punctuation mark.
+   */
+
+  public int countSentences() {
+
+  int sentencecount=0;
+for( String b : stre){
+  sentencecount++;
+}
+
+
+
+
+
+
+    return sentencecount;
+  }
 }
 ```
 This bit of code was fairly difficult for me to do as it required a lot of trial and error to get the coridantes correct aswell as allow for everything to work together as intended. This code controls the snowpile growing and melting as well as the day night cycle of the sky. I overcame this code by simply not giving up and being determined to finish it and have a quality product.<br><br>
